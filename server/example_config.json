@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Project",
+        "items": [
+            "Games",
+            "Mobile",
+            "TV"
+        ],
+        "repeat": { "type": "daily" },
+        "start": {
+            "time": "16:00"
+        },
+        "duration": 100
+    },
+    {
+        "name": "Work",
+        "items": [
+            "Mobile"
+        ],
+        "repeat": {
+            "type": "weekly",
+            "days": [
+                "Sunday",
+                "Saturday"
+            ]
+        },
+        "start": {
+            "time": "08:30"
+        },
+        "duration": 60
+    }
+]
